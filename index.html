@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/6495b88481.js" crossorigin="anonymous"></script>
+  <title>Proyecto2|Bootstrap</title>
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex">
+      <div>
+
+        <!--Contenido navbar derecha-->
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <h5 class="d-inline-block">Instagram</h5>
+      </div>
+      <div>
+
+        <!--Contenido navbar izquierda-->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          New Post
+        </button>
+
+
+        <!--Dropdown-->
+        <div class="btn-group">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear fa-l"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Privacy</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="#">How let the dog out?</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Grid selector-->
+  <div class="container">
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+            class="fa-solid fa-table-cells-large fa-2xl"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+            class="fa-solid fa-square fa-2xl"></i></button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+        tabindex="0">
+
+        <!--Grid 1-->
+        <div class="container text-center">
+          <div class="row p-3">
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/211/1920/1280.jpg?hmac=5feWJpfa59_r1yi4NCuTxY9IWrNWZqEUDIAwrtKId9s"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/668/4133/2745.jpg?hmac=n2-nIVXnrSE_pCjAmI-nlhBicoySz1xq-KUFMr9ERrM"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/791/5000/3333.jpg?hmac=cPzd2JG5KPMTn-WdscexEPbtbi5aISCGHKWkIlx5-eE"
+                alt="">
+            </div>
+          </div>
+          <div class="row p-3">
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/667/4240/2832.jpg?hmac=xpfN6spKFPWWj74DBhAvvtKcY5N53Rh5ineF9Kc16L8"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/674/3888/2592.jpg?hmac=qonBCG3loBHEmcqm1AfTtqe-TFRIi6FVXQ4OseiheiI"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/691/3000/2000.jpg?hmac=B9BXndbcKwwI497q7VntEkQJLSoVAp0moaUvNb4wbiQ"
+                alt="">
+            </div>
+          </div>
+          <div class="row p-3">
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/737/5000/3333.jpg?hmac=MpWfYyz8camy6r7bhtt1rDW7LTJ13mUbOUqlpyQN3CI"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/778/3000/2000.jpg?hmac=7zQ8xq8iQ4TkA_HoE-184Jt8Wh9CSfwbN2y0sBbNFjc"
+                alt="">
+            </div>
+            <div class="col-4 d-flex">
+              <img style="max-width: 25rem;"
+                src="https://fastly.picsum.photos/id/817/5000/3333.jpg?hmac=mLL15_CYNPKqa2T6y5XX3T_QNfLJgE2Dk-fZpkKRxz4"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+        <!--Grid 2-->
+        <div class="container d-flex justify-content-center p-2">
+          <div class="card" d-flex style="width: 50rem;">
+            <div class="container d-flex justify-content-between">
+              <h2 class="card-title">La vida es lo que sucede, mientras la planeas.</h2>
+              <p>19-27</p>
+            </div>
+            <img
+              src="https://fastly.picsum.photos/id/401/5000/3333.jpg?hmac=cWZTEbXXOFbDoEwjm3LX_Cw_Z02i3-3VywHjNjZ0wMw"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">67883 Likes</h5>
+              <p class="card-text">Agluta calenga bulari finiti.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex justify-content-center p-2">
+          <div class="card" d-flex style="width: 50rem;">
+            <div class="container d-flex justify-content-between">
+              <h2 class="card-title">Eres lo que haces cada día.</h2>
+              <p>19-98</p>
+            </div>
+            <img
+              src="https://fastly.picsum.photos/id/445/4256/2819.jpg?hmac=99qT1IPidZrzaXTgG1ixRRVwElWXUlNepU2k692G44c"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">99033 Likes</h5>
+              <p class="card-text">Some quick example text to build on the qwerty.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex justify-content-center p-2">
+          <div class="card" d-flex style="width: 50rem;">
+            <div class="container d-flex justify-content-between">
+              <h2 class="card-title">Lo esencial es invisible a los ojos.</h2>
+              <p>19-23</p>
+            </div>
+            <img
+              src="https://fastly.picsum.photos/id/646/2509/1673.jpg?hmac=HXykqhktw0TF08mbS0F3J4bxJJvJRQXG74xA4zPYW7Y"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">20033 Likes</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <textarea name="textarea" rows="2" cols="44" placeholder="Write a text" maxlength="100"></textarea>
+          <button>
+            <i class="fa-regular fa-image fa-xl"></i>
+          </button>
+          <button>
+            <i class="fa-solid fa-location-dot fa-xl"></i>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
